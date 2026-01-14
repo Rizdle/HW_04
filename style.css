@@ -84,14 +84,52 @@ background-color: azure;
 
 .item1>*
 {height: 190px;
-
+padding-block: 8px;
 flex: 1 1 33.33%;
 border: 1px dashed;
 }
 
+.sub-con1{
+    border-radius: 10px;
+    background-color: rgb(91, 91, 233);
+    height: 100%;
+    display: flex;
+    
+}
+
+.sub-con1>*{
+border: 1px dashed;
+flex:1  1 50%
+}
+
 .item2>*{
 display: flex;
-height: 380px;
+padding-block: 8px;
+height: 320px;
 border: 1px dashed;
 background-color: yellowgreen;
+}
+
+
+
+.sub-con2{
+    border-radius: 10px;
+    background-color: rgb(91, 91, 233);
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-con2>*{
+border: 1px dashed;
+}
+.p-3{
+    flex-grow: 60;
+
+}
+
+.d-3{
+    flex-grow: 40;
+    
 }
