@@ -35,7 +35,10 @@ flex: 1 1 33.33%;
 border: 1px dashed;
 
 }
-#logo{width:200px;}
+
+#l{text-decoration: none;}
+
+#logo{width:200px; }
 
 .box>*{
     display: flex;
@@ -106,7 +109,7 @@ padding:30px ;
 }
 
 #doc{
-    height:120px; margin: auto;
+    height:120px; width: 120px;
 }
 
 .detail-lay-1{display: flex;
