@@ -35,6 +35,7 @@ flex: 1 1 33.33%;
 border: 1px dashed;
 
 }
+#logo{width:200px;}
 
 .box>*{
     display: flex;
@@ -113,7 +114,8 @@ flex-direction: column;
 }
 
 #dot{font-size: 10px;}
-
+.bar{position: flex;
+}
 #class{
     background-color:red ;
     border: 1px dashed;
