@@ -65,6 +65,15 @@ flex: 1 1 33.33%;
     justify-content: end;
     padding: 15px;}
 
+.fa-cart-shopping{position: relative;}
+
+    .fa-circle-exclamation{
+        font-size: 10px;
+        position:absolute;
+        right:-5px;
+        top: -5px;
+    }
+
 
 
 
@@ -100,7 +109,7 @@ display: flex;
 {
     
     padding: 8px;
-border: 1px dashed;
+/* border: 1px dashed; */
 flex: 1 1 33.33%;
 /* background-color: azure; */
 }
@@ -204,7 +213,8 @@ justify-content:flex-start;
     display: flex;
 flex-direction: column;
 justify-content: space-evenly;}
-่ 
+
+
 
 .detail-lay-2,#gdog{font-size: 20px;}
 
@@ -215,8 +225,11 @@ justify-content: space-evenly;}
     position: relative;
 }
 
-#level-1{flex
+#level-1{
     position:absolute;
+    border: none;
+    background-color:#f3f3f3;
+    
     
 }
 
